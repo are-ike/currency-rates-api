@@ -65,6 +65,6 @@ app.get('/api/rates' , (req, res) => {
     .catch(err => res.status(400).json("Unable to retrieve data"))
 })
 
-app.listen(3000 || process.env.PORT, () => {
+app.listen(3000 || process.env.PORT, '0.0.0.0', () => {
     console.log('running');
 })
