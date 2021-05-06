@@ -1,1 +1,1 @@
-# enye-challenge1-api
+# currency-rates-api
